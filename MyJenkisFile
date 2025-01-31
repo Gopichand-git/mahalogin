@@ -1,8 +1,8 @@
 node{
- stage('clone java project') {
+ stage('clone My Gopi java project') {
    git 'https://github.com/Gopichand-git/mahalogin.git'
 }
-stage('execute maven target') {
+stage('execute Gopi maven target') {
    sh 'mvn clean install'
    echo 'this is my echo'
 }
